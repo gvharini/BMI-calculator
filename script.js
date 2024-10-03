@@ -15,12 +15,12 @@ function compute() {
     document.getElementById("resultWordP").innerText = "Normal";
     document.getElementById("resultWord").style.width = "160px";
     document.getElementById("box").style.boxShadow = "0px 0px 20px 5px green";
-  } else if (bmiCal > 25 && bmiCal < 29.9) {
+  } else if (bmiCal >= 25 && bmiCal <= 29.9) {
     document.getElementById("resultWordP").innerText = "Overweight";
     document.getElementById("resultWord").style.width = "160px";
     document.getElementById("box").style.boxShadow = "0px 0px 20px 2px yellow";
   }
-  else if (bmiCal > 30 && bmiCal < 100) {
+  else if (bmiCal >= 30 && bmiCal <= 100) {
     document.getElementById("resultWordP").innerText = "Obesily";
     document.getElementById("resultWord").style.width = "160px";
     document.getElementById("box").style.boxShadow = "0px 0px 20px 2px red";
