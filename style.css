@@ -178,34 +178,34 @@ input {
 .uw {
   color: rgba(44, 168, 198, 0.958);
   border-top: 5px solid rgb(69, 207, 222);
-  background-image: url('./image1.png');
+  background-image: url('./page/images/image1.png');
   background-size: contain;
   width: 100px;
-  height: 21vh;
+  height: 23vh;
   
 }
 .nrm {
 border-top: 5px solid rgb(48, 211, 59);
-background-image: url('./image2.png');
+background-image: url('./page/images/image2.png');
 background-size: contain;
 width: 101px;
-height: 21vh;
+height: 23vh;
   
 }
 .ov {
   border-top: 5px solid rgb(215, 241, 49);
-  background-image: url('./image3.png');
+  background-image: url('./page/images/image3.png');
 background-size: contain;
 width: 80px;
-height: 21vh;
+height: 23vh;
   
 }
 .ob {
 border-top: 5px solid rgb(194, 12, 12);
-background-image: url('./image4.png');
+background-image: url('./page/images/image4.png');
 background-size: contain;
 width: 77px;
-height: 21vh;
+height: 23vh;
   
 }
 
